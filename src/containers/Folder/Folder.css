@@ -1,0 +1,49 @@
+.main-folder-container{
+    padding: 10px 0;
+}
+
+.folder-container{
+    height: 40px;
+    width: 100%;
+    padding-left: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+}
+
+.folder-container:hover{
+    background: #dadbdb;
+}
+
+.icon{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 8px;
+}
+
+ion-icon{
+    font-size: 18px;
+}
+
+.folder-name-container{
+    height: 50px;
+    /* background: chartreuse; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 4px;
+}
+
+.drive-name-container h4{
+    font-size: 18px;
+}
+
+
+@media only screen and (max-width: 600px){
+    .folder-container:hover{
+        background: #ffffff;
+    }
+}

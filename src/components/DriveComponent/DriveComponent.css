@@ -1,0 +1,49 @@
+.drive-container{
+    height: 60px;
+    /* width: 250px; */
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+}
+
+.drive-container:hover{
+    background: #dadbdb;
+}
+
+.icon{
+    height: 50px;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 8px;
+}
+
+ion-icon{
+    font-size: 18px;
+}
+
+.drive-name-container{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 4px;
+}
+
+.drive-name-container h4{
+    font-size: 18px;
+}
+
+
+.folder-wrapper{
+    padding-left: 20px;
+}
+
+@media only screen and (max-width: 600px){
+    .drive-container:hover{
+        background: #ffffff;
+    }
+}
